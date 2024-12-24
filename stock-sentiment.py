@@ -66,7 +66,8 @@ def main(stock_symbol, api_key):
 if __name__ == "__main__":
 
     api_key = '84304d30650d4d959fee116667241dda'  # API key
-    stock_symbol = 'AAPL'  # stock symbol
+    # stock_symbol = 'AAPL'  # stock symbol
+    stock_symbol = input('Enter Stock Symbol: ')
 
     # main function
     main(stock_symbol, api_key)
